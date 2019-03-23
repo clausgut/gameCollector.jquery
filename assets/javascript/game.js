@@ -5,10 +5,10 @@ $(document).ready(() => {
     $('#randNum').html(randNumber);
 
     //each crystal has a hidden value i.e. random number between 1 and 20
-    let aventurine = Math.floor(Math.random() * 20) + 1;
-    let citrine = Math.floor(Math.random() * 20) + 1;
-    let rose = Math.floor(Math.random() * 20) + 1;
-    let charoite = Math.floor(Math.random() * 20) + 1;
+    let aventurine = Math.floor(Math.random() * 30) + 1;
+    let citrine = Math.floor(Math.random() * 30) + 1;
+    let rose = Math.floor(Math.random() * 30) + 1;
+    let charoite = Math.floor(Math.random() * 30) + 1;
 
     //player clicks the crystals to display value to totScore
     let wins = 0; //#wins
@@ -97,10 +97,10 @@ $(document).ready(() => {
     function resetTwo() {
         randNumber = Math.floor(Math.random() * ((250 - 195) + 1) + 195);
         $('#randNum').html(randNumber);
-        aventurine = Math.floor(Math.random() * 20) + 1;
-        citrine = Math.floor(Math.random() * 20) + 1;
-        rose = Math.floor(Math.random() * 20) + 1;
-        charoite = Math.floor(Math.random() * 20) + 1;
-        
+        aventurine = Math.floor(Math.random() * 30) + 1;
+        citrine = Math.floor(Math.random() * 30) + 1;
+        rose = Math.floor(Math.random() * 30) + 1;
+        charoite = Math.floor(Math.random() * 30) + 1;
+
     }
 });

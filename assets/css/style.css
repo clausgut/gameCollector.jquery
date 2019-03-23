@@ -1,9 +1,12 @@
 body {
     text-align: center;
     position: center;
+    font-family:'Dancing Script', cursive;
+    color:white;
+    font-size: 28px;
 }
-button{
-    box-shadow: none;
+.button{
+    shadow: none;
 }
 
 .aventurine{
@@ -35,9 +38,17 @@ button{
     margin: 5px 5px 5px 112px;
 }
 .total-score{
-    float: right;
-    position: absolute;
+    font-family:'Dancing Script', cursive;
+    color:white;
+    font-size: 28px;
+
 }
 .wins-loses{
+    font-family:'Dancing Script', cursive;
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+
+
 
 }
