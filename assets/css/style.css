@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    position: center;
+}
+button{
+    box-shadow: none;
+}
+
+.aventurine{
+    height: 160px;
+    width: 160px;
+    position: relative;
+    border: 3px solid lightgreen;
+    margin: 5px 5px 5px 94px;
+}
+.citrine{
+    height: 160px;
+    width: 160px;
+    position: relative;
+    border: 3px solid rgb(250, 250, 99);
+    margin: 5px 5px 5px 100px;
+}
+.rose{
+    height: 160px;
+    width: 160px;
+    position: relative;
+    border: 3px solid lightpink;
+    margin: 5px 5px 5px 106px;
+}
+.charoite{
+    height: 160px;
+    width: 160px;
+    position: relative;
+    border: 3px solid violet;
+    margin: 5px 5px 5px 112px;
+}
+.total-score{
+    float: right;
+    position: absolute;
+}
+.wins-loses{
+
+}
