@@ -2,11 +2,23 @@ body {
     text-align: center;
     position: center;
     font-family:'Dancing Script', cursive;
-    color:white;
+    color:black;
+    font-size: 34px;
+}
+.random-number{
+    color: white;
+    size: 50px;
+}
+.instructions{
+    color: black;
     font-size: 28px;
 }
 .button{
-    shadow: none;
+    border:none;
+    background: none;
+    color:inherit;
+    cursor:pointer;
+    outline: inherit;
 }
 
 .aventurine{
@@ -39,16 +51,98 @@ body {
 }
 .total-score{
     font-family:'Dancing Script', cursive;
-    color:white;
-    font-size: 28px;
+    font-size: 40px;
 
 }
 .wins-loses{
     font-family:'Dancing Script', cursive;
-    color: white;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 100;
 
+}
+.transbox{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid white;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }   
+/*768px*/
 
+@media (max-width: 768px) {
+
+    .random-number {
+        margin-top: 3%;
+    }
+
+    .jewel {
+       margin-right: -1%;
+    }
+
+    .jewel:nth-child(4) {
+        margin-right: 8px;
+    }
+
+    .footer {
+        margin-top: 37%;
+    }
 
 }
+
+/*640px*/
+
+@media (max-width: 640px) {
+
+    .crystal-array {
+       width: 64%;
+       margin-left: 19%
+    }
+
+    .footer {
+        width: 43%;
+        margin-top: 52%;
+        margin-left: 29%;
+    }
+}
+
+/*375px*/
+
+@media (max-width: 375px) {
+
+    .header {
+        width: 91%;
+        margin-left: 2%;
+    }
+
+    .instructions {
+        margin-left: 8%;
+    }
+
+   .random-number {
+       width: 32%;
+       margin-left: 32%;
+   }
+
+   .crystal-array {
+      width: 92%;
+      margin-left: 4%;
+   }
+
+   }
+
+   .total-score {
+       margin-left: 8%;
+       width: 35%;
+
+   }
+
+   .wins-loses {
+       width: 34%;
+       margin-right: 9%;
+   }
+
+   .footer {
+       margin-top: 104%;
+       margin-left: 17%;
+       width: 60%;
+   }
